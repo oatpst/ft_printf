@@ -6,7 +6,7 @@
 #    By: pwanakit <pwanakit@student.42bangkok.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/11 10:30:43 by pwanakit          #+#    #+#              #
-#    Updated: 2024/01/11 10:34:21 by pwanakit         ###   ########.fr        #
+#    Updated: 2024/01/11 11:43:39 by pwanakit         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ clean:
 		rm -rf $(OBJ)
 		
 fclean:
-		rm -rf $(NAME)
+		rm -rf $(NAME) $(OBJ)
 
 re:	fclean	all
 
